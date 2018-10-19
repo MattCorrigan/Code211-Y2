@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+b {
+    font-weight: 700 !important;
+}
+
+#header {
+    padding: 50px 0;
+    text-align: center;
+    color: #fdfdfd;
+    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+}
+
+#header h1 {
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin: 30px 0;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#header h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+#header #logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    max-width: 10vw;
+}
+
+#header .right, #header .left {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 15px 50px;
+    vertical-align: top;
+}
+
+
+#header .left {
+    text-align: center;
+}
+
+#header .left #info {
+    display: inline-block;
+    text-align: left;
+}
+
+#header .left #info h2:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+#header .super-title {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#header .right {
+    margin-top: 0px;
+}
+
+#header .right #desc {
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+
+#header .left #info {
+    text-align: center;
+}
+
+.info-container {
+    padding: 15px;
+}
+
+@media screen and (max-width:800px) {
+    #header .right, #header .left {
+        width: 400px;
+        max-width: 90vw;
+    }
+}
+
+a.white-button {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    background-color: #fdfdfd;
+    padding: 10px 25px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 25px auto;
+    transition: 0.2s;
+}
+
+#header a.white-button:hover {
+    width: 250px;
+}
+
+a.button {
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 25px auto;
+    transition: 0.2s;
+    background: linear-gradient(to right, #5B3ADC 0%, #305AED 100%);
+    color: white;
+}
+
+
+
+#hackathon {
+    text-align: center;
+    margin: 90px 0;
+}
+
+#hackathon h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+#hackathon p.desc {
+    line-height: 1.75rem;
+    font-size: 1.05rem;
+    width: 750px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.card {
+    width: 700px;
+    max-width: 80vw;
+    padding: 25px 20px;
+    padding-bottom: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #222;
+}
+
+#hackathon .card {
+    position:relative;
+    margin: 20px auto;
+}
+
+#hackathon .card span {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #777;
+}
+
+#hackathon .card span a {
+    color: #777;
+    transition: 0.2s;
+}
+
+#hackathon .card span a:hover {
+    color: #111;
+}
+
+#stats {
+    padding: 100px 0;
+    background-color: #464AE5;
+    color: #fdfdfd;
+     background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+}
+
+#stats .inner {
+    width: 700px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+#stats h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.stat {
+    display: inline-block;
+    width: 50%;
+    padding: 30px 0;
+}
+
+.stat h3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.stat .subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: dashed rgba(255, 255, 255, 0.7) 2px;
+    display: inline-block;
+}
+
+#faq {
+    padding: 50px;
+    text-align: center;
+}
+
+#faq h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 30px;
+}
+
+#faq .card {
+    padding: 25px 20px;
+    margin: 20px auto;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#faq .card h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#faq p.ask {
+    padding: 20px;
+}
+
+#faq p.ask a {
+    color: #777;
+    transition: 0.2s;
+}
+
+#faq p.ask a:hover {
+    color: #111;
+}
+
+#schedule {
+    padding: 100px 0;
+    background-color: #464AE5;
+    color: #fdfdfd;
+    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+}
+
+#schedule h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#schedule .container {
+    margin: 0 auto;
+    display: block;
+    width: 66vw;
+    min-width: 600px;
+}
+
+#schedule .sleft, #schedule .sright {
+    width: 33vw;
+    min-width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+#schedule .sleft h4, #schedule .sright h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.95);
+    border-bottom: dashed rgba(255, 255, 255, 0.7) 2px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+   .stat {
+       padding: 25px !important;
+   }
+}
+
+@media screen and (max-width: 650px) {
+    #schedule .sleft, #schedule .sright {
+        width: 45%;
+        min-width: 100px;
+    }
+    #schedule .container {
+        width: 90%;
+        min-width: 100px;
+    }
+}
+
