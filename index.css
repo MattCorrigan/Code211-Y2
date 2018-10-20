@@ -115,7 +115,7 @@ a.button {
 
 #hackathon {
     text-align: center;
-    margin: 90px 0;
+    padding: 90px 0;
 }
 
 #hackathon h2 {
@@ -146,6 +146,7 @@ a.button {
 #hackathon .card {
     position:relative;
     margin: 20px auto;
+    background-color: white;
 }
 
 #hackathon .card span {
@@ -169,7 +170,7 @@ a.button {
     padding: 100px 0;
     background-color: #464AE5;
     color: #fdfdfd;
-     background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
 }
 
 #stats .inner {
@@ -220,6 +221,7 @@ a.button {
     margin: 20px auto;
     text-align: left;
     margin-bottom: 35px;
+    background-color: white;
 }
 
 #faq .card h4 {
@@ -242,10 +244,11 @@ a.button {
 }
 
 #schedule {
-    padding: 100px 0;
+    padding: 150px 0;
     background-color: #464AE5;
     color: #fdfdfd;
     background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+    position: relative;
 }
 
 #schedule h2 {
@@ -253,6 +256,10 @@ a.button {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 40px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #schedule .container {
