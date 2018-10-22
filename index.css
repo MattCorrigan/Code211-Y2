@@ -318,7 +318,7 @@ a.button {
 }
 
 .person {
-    width: 300px;
+    width: 500px;
     max-width: 80vw;
     padding: 25px 20px;
     padding-bottom: 50px;
@@ -344,4 +344,10 @@ a.button {
     top: 50%;
     transform: translateY(-50%);
     left: 100px;
+}
+
+@media screen and (max-width:500px) {
+    .hide-if {
+        display:none;
+    }
 }
