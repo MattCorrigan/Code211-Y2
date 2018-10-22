@@ -1,0 +1,112 @@
+<html>
+
+<body style="-webkit-print-color-adjust:exact;">
+    <style>
+        @import url('https://raw.githubusercontent.com/todylu/monaco.ttf/master/monaco.ttf');
+        @import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,900');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100vh;
+            max-height:100vh;
+            font-size: 24px;
+        }
+        body { 
+            background-repeat: repeat;/*
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment: scroll;*/
+            height:100vh;
+             
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            padding-top: 80px;
+            text-align: center;
+        }
+        h1 img {
+            width: 150px;
+        }
+        p, h2, h3, h4, a {
+            line-height: 2rem;
+            font-family: "Saira Semi Condensed";
+            color: white;
+            font-size: 1.25rem;
+        }
+        .date {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 2rem;
+        }
+         
+        u {
+            text-decoration: none;
+        }
+         
+        hr {
+            position: relative;
+            height: 2px;
+            border: 0;
+            background-color: white;
+            width: 139px;
+            left: 41.6%;
+            top: -10px;
+        }
+        
+        .definition {
+            width: 700px;
+            text-align: left;
+            margin: 70px auto;
+            position: relative;
+            left: 30px;
+        }
+        
+        .slogan {
+            margin-bottom: 75px;
+        }
+        .slogan p {
+            font-size: 1.75rem;
+            line-height: 3rem;
+        }
+    </style>
+
+    <!-- Content -->
+    <h1><img src="img/code211.png"></h1>
+
+    <p style="padding-top:20px;font-size:2rem;text-align: center; margin: 0 auto;font-weight: bold;font-size: 2.5rem;">Code211 2019</p>
+    <p><u>code211.org</u><hr></p>
+
+    <div class="definition">
+        <p><b>hack&bull;a&bull;thon</b></p>
+        <p style="">an event in which a large number of people meet to engage in collaborative computer programming.</p>
+    </div>
+    
+    <div class="slogan">
+        <p><b>Learn to Code<br>Win Prizes<br>Eat Free Food</b></p>
+    </div>
+    
+    <br><br>
+    <h3 class="date" style="text-align: left;padding-left: 35px;font-size: 2rem;">1/25-1/26</h3>
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+    <script>
+        /* global GeoPattern */
+        /* global $ */
+        var pattern = GeoPattern.generate('GigsasdtsdfgdfgdfgdfgdfghhHub', {color: "#5B3ADC", generator: "squares"});
+         $('body').css('background-image', pattern.toDataUrl());
+    </script>
+
+</body>
+
+</html>
+
