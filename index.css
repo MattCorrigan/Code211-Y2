@@ -34,7 +34,7 @@ b {
 #header .right, #header .left {
     width: 50vw;
     margin: 0 auto;
-    padding: 15px 50px;
+    padding: 15px 0;
     vertical-align: top;
 }
 
@@ -175,7 +175,7 @@ a.button {
 
 #stats .inner {
     width: 700px;
-    max-width: 80vw;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -206,7 +206,7 @@ a.button {
 }
 
 #faq {
-    padding: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -267,14 +267,18 @@ a.button {
     display: block;
     width: 66vw;
     min-width: 600px;
+    text-align: center;
 }
 
 #schedule .sleft, #schedule .sright {
-    width: 33vw;
+    width: 20vw;
     min-width: 300px;
     display: inline-block;
     text-align: center;
 }
+
+#schedule .sleft { padding-right: 20px; }
+#schedule .sright { padding-left: 20px; }
 
 #schedule .sleft h4, #schedule .sright h4 {
     font-weight: 700;
@@ -303,7 +307,7 @@ a.button {
 }
 
 #contact {
-    padding: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
