@@ -302,3 +302,42 @@ a.button {
     }
 }
 
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 30px;
+}
+
+.person {
+    width: 300px;
+    max-width: 80vw;
+    padding: 25px 20px;
+    padding-bottom: 50px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #222;
+    text-align: left;
+    margin: 20px auto;
+    position: relative;
+    height: 150px;
+    display: inline-block;
+}
+
+.person img {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.person .info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+}
