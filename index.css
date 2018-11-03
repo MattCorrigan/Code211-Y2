@@ -11,11 +11,15 @@ b {
     font-weight: 700 !important;
 }
 
+.patternbackground {
+	background: url("img/pattern.svg") repeat fixed 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat fixed 0% 0%;
+	/*background-position: center;*/
+}
+
 #header {
     padding: 50px 0;
     text-align: center;
     color: #fdfdfd;
-    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
 }
 
 #header img {
@@ -170,7 +174,7 @@ a.button {
     padding: 100px 0;
     background-color: #464AE5;
     color: #fdfdfd;
-    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+    /*background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;*/
 }
 
 #stats .inner {
@@ -247,7 +251,7 @@ a.button {
     padding: 150px 0;
     background-color: #464AE5;
     color: #fdfdfd;
-    background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;
+    /*background: url("img/pattern.svg") repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat scroll 0% 0%;*/
     position: relative;
 }
 
