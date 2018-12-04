@@ -12,6 +12,8 @@
     </head>
 
     <body>
+        <script src="https://use.fontawesome.com/d0bc9af035.js"></script>
+        <script src="index.js"></script>
         <!--
         Structure:
         - Header, has logistical info, description, signup button, and svg background (hackclub.com/pattern.svg) *
@@ -28,7 +30,7 @@
 			
             <div class="right">
                 <p id="desc">Last year, over 100 students from all 5 schools attended Code211, with 22 groups submitting finished projects. In January, we'll be bringing back the event for year 2 of Code211. Sign up now to reserve your spot at the district's only hackathon!</p>
-                <a href="https://maeganjong.typeform.com/to/T2IhTZ" class="white-button">Sign Up</a>
+                <a href="https://www.eventbrite.com/e/code211-tickets-53279847458" target="_blank" class="white-button">Sign Up</a>
             </div>
             
             <div class="left">
@@ -59,20 +61,116 @@
         </div>
         
         <div class="patternbackground" id="schedule">
-            <h2>Schedule</h2>
+            <h2 id="schedule">Schedule</h2>
             
             <div class="container">
                 
                 <div class="sleft">
-                    <h4>Friday, January 0th</h4>
+                    <h4>Friday, February 1st</h4>
                     <p><i>Stay Tuned for Details.</i></p>
                 </div><!--
                 --><div class="sright">
-                    <h4>Saturday, January 1th</h4>
+                    <h4>Saturday, February 2nd</h4>
                     <p><i>Stay Tuned for Details.</i></p>
                 </div>
                 
             </div>
+            
+            <div class="workshops" id="workshops">
+                <h3 class="title">Workshops</h3>
+                <div class="workshop card">
+                    <h3>Intro to MIT AppInventor</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Friday, 7:30pm - 9:00pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="novice"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Further Explorations in MIT AppInventor</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Saturday, 8:30am - 10:00am</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="novice"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Hangman in MIT AppInventor</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>1:00pm - 1:30pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="novice"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Website Workshop 1</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Friday, 8:00pm - 10:00pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="intermediate"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Website Workshop 2</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Saturday, 8:30am - 10:00am</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="intermediate"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Twitter Bot</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Saturday, 1:00pm - 2:00pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="intermediate"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Physics Engines in Python and Javascript</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Friday, 7:30pm - 9:00pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="advanced"></p>
+                    </div>
+                </div>
+
+                <div class="workshop card">
+                    <h3>Lighting it up with Google Firebase</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Saturday, 8:30am - 10:00am</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="advanced"></p>
+                    </div>
+                </div>
+                
+                <div class="workshop card">
+                    <h3>REST easy with Databases / React JS Native</h3>
+                    <a class="see-more" onclick="openWorkshop(this)">See More</a>
+                    <p class="hidden"><i>Saturday, 1:00pm - 2:00pm</i></p>
+                    <p class="hidden">Put a description here. Pellentesque scelerisque urna in pretium hendrerit. Integer malesuada ligula non luctus eleifend. Pellentesque mattis finibus turpis bibendum malesuada. Aliquam ac ipsum in est laoreet lobortis vitae ut tortor. Maecenas at malesuada est.</p>
+                    <div class="difficulty">
+                        <p class="advanced"></p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
         </div>
         
         <div id="faq">
@@ -139,40 +237,85 @@
         </div>
         
         <div id="contact">
-            <h2>Contact Information</h2>
-            <div class="person">
+            <h2>Contact Information</h2> <!-- obfuscation method inspired by https://perishablepress.com/best-method-for-email-obfuscation/ -->
+            <div class="person person-rep" id="Matt">
                 <img class="icon" src="img/fremd.png">
                 <div class="info">
                     <h3>Matt Corrigan</h3>
-                    <a href="mailto:corrigan1247@students.d211.org">corrigan1247<span class="hide-if">@students.d211.org</span></a>
+                    <div id="CorriganEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("CorriganEmail").innerHTML = "<n uers=\"znvygb:pbeevtna1247@fghqragf.q211.bet\">pbeevtna1247<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
                 </div>
             </div>
-            <div class="person">
+            <div class="person" id="Maegan">
                 <img class="icon" src="img/fremd.png">
                 <div class="info">
                     <h3>Maegan Jong</h3>
-                    <a href="mailto:jong1478@students.d211.org">jong1478<span class="hide-if">@students.d211.org</span></a>
+                    <div id="JongEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("JongEmail").innerHTML = "<n uers=\"znvygb:wbat1478@fghqragf.q211.bet\">wbat1478<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
                 </div>
             </div>
-            <div class="person">
+            <div class="person" id="Arnav">
                 <img class="icon" src="img/fremd.png">
                 <div class="info">
                     <h3>Arnav Batta</h3>
-                    <a href="mailto:batta1484@students.d211.org">batta1484<span class="hide-if">@students.d211.org</span></a>
+                    <div id="BattaEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("BattaEmail").innerHTML = "<n uers=\"znvygb:onggn1484@fghqragf.q211.bet\">onggn1484<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
                 </div>
             </div>
-            <div class="person">
+            <div class="person person-rep" id="John">
                 <img class="icon" src="img/palatine.png">
                 <div class="info">
                     <h3>John Wang</h3>
-                    <a href="mailto:wang1309@students.d211.org">wang1309<span class="hide-if">@students.d211.org</span></a>
+                    <div id="WangEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("WangEmail").innerHTML = "<n uers=\"znvygb:jnat1309@fghqragf.q211.bet\">jnat1309<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
                 </div>
             </div>
-            <div class="person">
+            <div class="person" id="Zoey">
                 <img class="icon" src="img/hoffman.png">
                 <div class="info">
                     <h3>Zoey Aleksieva</h3>
-                    <a href="mailto:aleksieva4951@students.d211.org">aleksieva4951<span class="hide-if">@students.d211.org</span></a>
+                    <div id="AleksievaEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("AleksievaEmail").innerHTML = "<n uers=\"znvygb:nyrxfvrin4951@fghqragf.q211.bet\">nyrxfvrin4951<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
+                </div>
+            </div>
+            <div class="person person-rep" id="Maliha">
+                <img class="icon" src="img/hoffman.png">
+                <div class="info">
+                    <h3>Maliha Amir</h3>
+                    <div id="AmirEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("AmirEmail").innerHTML = "<n uers=\"znvygb:nzve1693@fghqragf.q211.bet\">nzve1693<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
+                </div>
+            </div>
+            <div class="person person-rep" id="Rob">
+                <img class="icon" src="img/schaumburg.png">
+                <div class="info">
+                    <h3>Rob Budak</h3>
+                    <div id="RobEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("RobEmail").innerHTML = "<n uers=\"znvygb:ohqnx7273+pbqr211@fghqragf.q211.bet\">ohqnx7273+pbqr211<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
+                </div>
+            </div>
+            <div class="person person-rep" id="Jill">
+                <img class="icon" src="img/conat.png">
+                <div class="info">
+                    <h3>Jill Patel</h3>
+                    <div id="PatelEmail"></div> <!--ask Rob how to put in more emails-->
+                    <script type="text/javascript">
+	                    document.getElementById("PatelEmail").innerHTML = "<n uers=\"znvygb:cngry1826@fghqragf.q211.bet\">cngry1826<fcna pynff=\"uvqr-vs\">@fghqragf.q211.bet</fcna></n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                    </script>
                 </div>
             </div>
         </div>
