@@ -1,3 +1,10 @@
+:root {
+  --secondary-gradient-color: #157BFF;
+  --primary-gradient-color: #0E57FF;
+  /* old colors: linear-gradient(to top, #5B3ADC 0%, #305AED 100%) */
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +19,7 @@ b {
 }
 
 .patternbackground {
-	background: url("img/pattern.svg") repeat fixed 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, #5B3ADC 0%, #305AED 100%) repeat fixed 0% 0%;
+	background: url("img/pattern.svg") repeat fixed 0% 0%, rgba(0, 0, 0, 0) linear-gradient(to top, var(--primary-gradient-color) 0%, var(--secondary-gradient-color) 100%) repeat fixed 0% 0%;
 }
 
 #header {
@@ -110,7 +117,7 @@ a.button {
     width: 200px;
     margin: 25px auto;
     transition: 0.2s;
-    background: linear-gradient(to right, #5B3ADC 0%, #305AED 100%);
+    background: linear-gradient(to right, var(--primary-gradient-color) 0%, var(--secondary-gradient-color) 100%);
     color: white;
 }
 
@@ -386,7 +393,7 @@ a.button {
 }
 
 .workshop .see-more {
-    background: linear-gradient(to bottom right, #5B3ADC 0%, #305AED 100%);
+    background: linear-gradient(to bottom right, var(--primary-gradient-color) 0%, var(--secondary-gradient-color) 100%);
     color: #fefefe;
     text-decoration: none;
     padding: 10px 15px;
