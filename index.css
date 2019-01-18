@@ -288,13 +288,11 @@ a.button {
 
 #schedule .sleft, #schedule .sright {
     width: 20vw;
-    min-width: 300px;
-    display: inline-block;
-    text-align: center;
+    min-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
-
-#schedule .sleft { padding-right: 20px; }
-#schedule .sright { padding-left: 20px; }
 
 #schedule .sleft h4, #schedule .sright h4 {
     font-weight: 700;
@@ -303,6 +301,11 @@ a.button {
     border-bottom: dashed rgba(255, 255, 255, 0.7) 2px;
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.center {
+    display: block;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
