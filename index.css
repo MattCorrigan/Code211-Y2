@@ -105,7 +105,7 @@ a.white-button {
     transition: 0.2s;
 }
 
-#header a.white-button:hover {
+/*#header*/ a.white-button:hover { /*disable header so all a.white-buttons do this*/
     width: 250px;
 }
 
