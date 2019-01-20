@@ -100,13 +100,13 @@ a.white-button {
     background-color: #fdfdfd;
     padding: 10px 25px;
     border-radius: 20px;
-    width: 200px;
+    width: 250px;
     margin: 25px auto;
     transition: 0.2s;
 }
 
 /*#header*/ a.white-button:hover { /*disable header so all a.white-buttons do this*/
-    width: 250px;
+    width: 300px;
 }
 
 a.button {
