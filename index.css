@@ -413,6 +413,23 @@ a.button {
     text-align: center;
 }
 
+.horiz-spacer {
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+
+.novice {
+    color: rgb(49, 175, 7);
+}
+
+.intermediate {
+    color: rgb(242, 143, 4);
+}
+
+.advanced {
+    color: rgb(239, 51, 14);
+}
+
 @media screen and (max-width:500px) {
     .hide-if {
         display:none;
