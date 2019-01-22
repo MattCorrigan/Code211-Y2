@@ -103,6 +103,7 @@ a.white-button {
     width: 250px;
     margin: 25px auto;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 /*#header*/ a.white-button:hover { /*disable header so all a.white-buttons do this*/
