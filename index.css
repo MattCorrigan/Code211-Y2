@@ -123,6 +123,29 @@ a.button {
 }
 
 
+#links {
+    background-color: #0E57FF;
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    
+    webkit-box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+}
+
+#links a {
+    color: white;
+    padding: 5px 10px;
+    margin: 0 30px;
+    font-weight: bold;
+}
+
+
 
 #hackathon {
     text-align: center;
@@ -434,6 +457,12 @@ a.button {
 @media screen and (max-width:500px) {
     .hide-if {
         display:none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #links a {
+        margin: 0;
     }
 }
 
