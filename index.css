@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono:400,700');
+
 :root {
   --secondary-gradient-color: #157BFF;
   --primary-gradient-color: #0E57FF;
   /* old colors: linear-gradient(to top, #5B3ADC 0%, #305AED 100%) */
 }
+
 
 
 * {
@@ -120,6 +123,29 @@ a.button {
     transition: 0.2s;
     background: linear-gradient(to right, var(--primary-gradient-color) 0%, var(--secondary-gradient-color) 100%);
     color: white;
+}
+
+
+#links {
+    background-color: #0E57FF;
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    
+    webkit-box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: -4px -4px 10px 0px rgba(0,0,0,0.25);
+}
+
+#links a {
+    color: white;
+    padding: 5px 10px;
+    margin: 0 30px;
+    font-weight: bold;
 }
 
 
@@ -288,8 +314,8 @@ a.button {
 }
 
 #schedule .sleft, #schedule .sright {
-    width: 20vw;
-    min-width: 500px;
+    width: 600px;
+    max-width: 100%;
     text-align: left;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -302,6 +328,12 @@ a.button {
     border-bottom: dashed rgba(255, 255, 255, 0.7) 2px;
     display: inline-block;
     margin-bottom: 20px;
+}
+
+#schedule .sleft span, #schedule .sright span {
+    font-family: "Share Tech Mono";
+    font-weight: regular !important;
+    letter-spacing: -2px;
 }
 
 .center {
@@ -434,6 +466,12 @@ a.button {
 @media screen and (max-width:500px) {
     .hide-if {
         display:none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #links a {
+        margin: 0;
     }
 }
 
